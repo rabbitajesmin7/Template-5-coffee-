@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Courgette');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-top: 0;
+}
+.menu-area{
+    margin-top: 30px;
+}
+.menu-area ul{
+     display: flex;
+}
+.menu-area ul li{
+     list-style: none;
+    padding: 10px;
+}
+.menu-area ul li a{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    
+}
+.menu-area ul li a:hover{
+    font-family: 'Anton';
+}
+
+.header-area .header-buttom{
+    background:url(img/img4.jpeg);
+    
+    padding: 251px;
+    background-repeat: no-repeat;
+   
+    
+}
+.header-buttom .header-text h1{
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    font-size: 80px;
+    
+}
+.header-buttom .header-text p{
+    color: #fff;
+    text-align: center;
+
+   padding: 10px;
+}
+.body-area{
+    background-color: #ECECEC;
+    padding: 100px 0;
+}
+.body-area .body-text h3{
+    text-align: center;
+    padding: 20px;
+    
+}
+.about-area{
+    padding: 65px 0;
+}
+.about-area .item-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #EB974E;
+}
+.about-area .item-icon i{
+    font-size: 30px;
+}
+.about-area .item-text h5{
+    margin-top: 10px;
+}
+.about-area .item-text p{
+    font-family: 'Courgette';
+}
+.gallary-area{
+    background-color: #ECECEC;
+    padding: 80px;
+}
+.gallary-area .gallary-text h5{
+    text-align: center;
+    text-transform: capitalize;
+}
+.gallary-area .gallary-text p{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallary-area .gallary-img{
+    width: 100%;
+    padding: 5px;
+}
+.contact-area{
+    padding: 80px;
+    background: url(img/contact.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+.contact-area .container{
+   width: 50%;
+}
+.contact-area .contact-text h3{
+    text-align:center;
+    color: #fff;
+}
+.contact-area .contact-text p{
+    text-align:center;
+    color: #fff;
+}
+.contact-form input{
+    padding: 30px;
+}
+.contact-form input:nth-child(3){
+    padding-bottom: 140px;
+}
+.contact-form input[type=submit] {
+    border: 1px solid #15a4fa;
+    color: #fff;
+    padding: 5px 20px;
+}
+ 
